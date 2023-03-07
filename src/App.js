@@ -7,7 +7,6 @@ import Missing from './Missing';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { format } from 'date-fns';
-import { LoremIpsum } from 'react-lorem-ipsum';
 
 function App() {
   const [posts, setPosts] = useState([
